@@ -101,7 +101,7 @@ class App extends React.Component {
         return(
             <div>
                 {this.renderContent()}
-            </div> {/**before the code for render content was inside the render method but in order to make it easier to maintain it was set to a helper function */}
+            </div> /**before the code for render content was inside the render method but in order to make it easier to maintain it was set to a helper function */
         );
     }
 }
